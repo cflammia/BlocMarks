@@ -9,8 +9,12 @@ group :production do
 end
 
 group :development, :test do
-  gem 'sqlite3', '1.3.4'
+  gem 'sqlite3'
 end
+
+gem 'haml'
+gem 'bootstrap-sass', '~>3.1.1'
+gem 'devise'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
