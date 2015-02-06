@@ -4,12 +4,12 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.8'
 
 group :production do
-  gem 'pg'
+  gem 'pg, '0.12.2'
   gem 'rails_12factor'
 end
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.4'
 end
 
 gem 'haml'
